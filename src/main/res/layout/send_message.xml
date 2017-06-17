@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:background="@drawable/edit_text_rounding"
+    android:padding="8dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendMessage"
+        android:layout_weight="1"
+        android:hint="What is on your mind..."
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:background="#ffffff"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Send"
+        android:onClick="send"
+        android:layout_weight="0"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_rounded"
+        android:src="@drawable/send"
+        android:id="@+id/imageButton"></ImageButton>
+
+
+</LinearLayout>
+

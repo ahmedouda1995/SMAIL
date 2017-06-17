@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smail</string>
+    <string name="hostname">https://smail-go.herokuapp.com/</string>
+    <string name="server_client_id">306545179083-9j9kac30g9s7n0epg15s1qrlpbln0kms.apps.googleusercontent.com</string>
+</resources>

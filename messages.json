@@ -1,0 +1,40 @@
+{
+  "send":{
+    "messages":["Send an Email","I want to send an email"],
+    "replies":["Please Enter the receiver's Email"]
+  },
+  "delete":{
+    "messages":["Delete an Email","I want to delete an Email"],
+    "replies":["Please Select the Email to delete"]
+  },
+  "trash":{
+    "messages":["Trash an Email","I want to trash an Email"],
+    "replies":["Please Select the Email to trash"]
+  },
+  "list":{
+    "messages":["Get My Emails","show me my Emails"],
+    "replies":[]
+  },
+  "summarize":{
+    "messages":["Summarize an Email","I want to summarize this Email"],
+    "replies":["Please Select the Email to summarize"]
+  },
+  "to":{
+    "messages":[],
+    "replies":["Could you please specify the subject"]
+  },
+  "subject":{
+    "messages":[],
+    "replies":["Please Enter the Body of the Message"]
+  },
+  "actions":{
+    "Send an Email":["send"],
+    "Delete an Email":["delete"],
+    "Trash an Email":["trash"],
+     "Get My Emails":["list"],
+     "Summarize an Email":["summarize"]
+  }
+
+
+
+}

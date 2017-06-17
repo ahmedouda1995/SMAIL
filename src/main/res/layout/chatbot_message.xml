@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00999999"
+    tools:context="go.smail.android.smail.MainActivity">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="-15dp"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/arrow_bg2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahajs AKDHA DVnxkvns\ndcslvj\n;"
+        android:background="@drawable/rounded_chatbot"
+        android:id="@+id/chatElementChatbot"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:textIsSelectable="true"
+        />
+    <!--android:autoLink="web"-->
+</LinearLayout>
